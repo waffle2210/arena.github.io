@@ -42,7 +42,6 @@
                     const onlineContainer = document.getElementById('online-list');
                     const offlineContainer = document.getElementById('offline-list');
                     
-                    // 各領域を一旦クリア
                     onlineContainer.innerHTML = '';
                     offlineContainer.innerHTML = '';
 
@@ -57,11 +56,11 @@
                         const isOnline = player.status === 'ONLINE';
                         const statusClass = isOnline ? 'status-online' : 'status-offline';
 
-                        // 累計勝利数の表示箇所を削除し、スッキリさせました
+                        // 勝利数やキューブ数の表示をすべて廃止し、スッキリさせました
                         card.innerHTML = `
                             <div>
                                 <strong style="font-size: 1.2em; color: #fff;">${player.custom_name}</strong> 
-                                <span style="color:#888; font-size:0.9em;">(DJ: ${player.official_name} / ID: ${iidx_id})</span><br>
+                                <span style="color:#888; font-size:0.9em;">(DJ: ${player.official_name} / ID: ${iidx_id})</span>
                                 <div style="color:#ffc107; font-size:0.9em; margin-top:5px;">備考: ${player.memo}</div>
                                 <div class="time">最終アクティブ: ${player.last_active}</div>
                             </div>
@@ -70,7 +69,6 @@
                             </div>
                         `;
 
-                        // ステータスに応じて振り分ける
                         if (isOnline) {
                             onlineContainer.appendChild(card);
                             hasOnline = true;
@@ -80,7 +78,6 @@
                         }
                     });
 
-                    // 該当者がいない場合のフェイルセーフテキスト
                     if (!hasOnline) {
                         onlineContainer.innerHTML = '<div class="empty-message">現在オンラインのプレイヤーはいません</div>';
                     }
@@ -94,7 +91,6 @@
                 });
         }
 
-        // 初回実行と自動リロード設定
         updateMonitor();
         setInterval(updateMonitor, 600000);
     </script>
