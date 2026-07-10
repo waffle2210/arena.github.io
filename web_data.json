@@ -1,27 +1,30 @@
 {
-    "last_updated": "2026-07-10 16:29:37",
+    "last_updated": "2026-07-10 16:44:36",
     "players": {
         "8974-9384": {
             "official_name": "MO-2.",
             "custom_name": "MO-2.",
             "memo": "テクノワールド",
             "wins": 52,
+            "cubes": null,
             "status": "OFFLINE",
             "last_active": "データなし"
         },
         "0226-0395": {
-            "official_name": "圏外",
+            "official_name": "None",
             "custom_name": "CHMR",
             "memo": "テクノワールド",
             "wins": 0,
+            "cubes": null,
             "status": "UNKNOWN (圏外)",
             "last_active": "データなし"
         },
         "2818-4520": {
-            "official_name": "圏外",
+            "official_name": "None",
             "custom_name": "ENMT",
             "memo": "テクノワールド",
             "wins": 0,
+            "cubes": null,
             "status": "UNKNOWN (圏外)",
             "last_active": "データなし"
         },
@@ -30,6 +33,7 @@
             "custom_name": "HITA*",
             "memo": "テクノワールド",
             "wins": 96,
+            "cubes": 121,
             "status": "OFFLINE",
             "last_active": "データなし"
         },
@@ -38,6 +42,7 @@
             "custom_name": "A.K.A.",
             "memo": "ADX MAMY",
             "wins": 156,
+            "cubes": null,
             "status": "OFFLINE",
             "last_active": "データなし"
         },
@@ -46,6 +51,7 @@
             "custom_name": "Y-AX!S",
             "memo": "ADX MAMY",
             "wins": 45,
+            "cubes": null,
             "status": "OFFLINE",
             "last_active": "データなし"
         },
@@ -54,6 +60,7 @@
             "custom_name": "TIHAYA",
             "memo": "ADX MAMY",
             "wins": 12,
+            "cubes": null,
             "status": "OFFLINE",
             "last_active": "データなし"
         },
@@ -62,6 +69,7 @@
             "custom_name": "TANPA2",
             "memo": "ADX MAMY",
             "wins": 36,
+            "cubes": null,
             "status": "OFFLINE",
             "last_active": "データなし"
         },
@@ -70,6 +78,7 @@
             "custom_name": "IBUKI*",
             "memo": "ファンタジスタ",
             "wins": 57,
+            "cubes": null,
             "status": "OFFLINE",
             "last_active": "データなし"
         },
@@ -78,6 +87,7 @@
             "custom_name": "CXF",
             "memo": "ファンタジスタ",
             "wins": 119,
+            "cubes": 131,
             "status": "OFFLINE",
             "last_active": "データなし"
         },
@@ -86,6 +96,7 @@
             "custom_name": "DENTAK",
             "memo": "ファンタジスタ",
             "wins": 30,
+            "cubes": null,
             "status": "OFFLINE",
             "last_active": "データなし"
         },
@@ -94,6 +105,7 @@
             "custom_name": "GOLUSI",
             "memo": "ファンタジスタ",
             "wins": 69,
+            "cubes": 107,
             "status": "OFFLINE",
             "last_active": "データなし"
         },
@@ -102,6 +114,7 @@
             "custom_name": "SHIKIP",
             "memo": "CYGameworld",
             "wins": 24,
+            "cubes": null,
             "status": "OFFLINE",
             "last_active": "データなし"
         },
@@ -110,6 +123,7 @@
             "custom_name": "MR2N",
             "memo": "CYGameworld",
             "wins": 68,
+            "cubes": 128,
             "status": "OFFLINE",
             "last_active": "データなし"
         },
@@ -118,6 +132,7 @@
             "custom_name": "MOUKA",
             "memo": "CYGameworld",
             "wins": 54,
+            "cubes": 71,
             "status": "OFFLINE",
             "last_active": "データなし"
         }
