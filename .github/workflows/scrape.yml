@@ -1,18 +1,20 @@
 name: IIDX Arena Scraper
 
 on:
-#  schedule:
-#    # 10分ごとに実行 (UTC表記のため注意)
-#    - cron: '*/10 * * * *'
-  workflow_dispatch: # 手動実行用のボタンも設置
+  schedule:
+    # 日本時間(JST)の AM 2:00 ～ AM 6:59 を除外して10分ごとに実行
+    - cron: '*/10 0-16,22-23 * * *'
+  workflow_dispatch: # 手動実行用
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    
     env:
-      TZ: Asia/Tokyo
+      TZ: Asia/Tokyo # サーバーの時計を日本時間にする
+      
     permissions:
-      contents: write # 実行結果をリポジトリに書き込む権限
+      contents: write
 
     steps:
     - name: Checkout repository
@@ -31,13 +33,17 @@ jobs:
         pip install -r requirements.txt
         playwright install chromium
 
+    # ⬇️ ここを条件分岐付きに書き換えます ⬇️
+     Sir,
     - name: Run Scraper
-      run: python arena_full_scraper.py
-
-    - name: Commit and Push changes
       run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        # web_data.jsonに変更があればコミットしてプッシュ
-        git add web_data.json
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Update arena status [skip ci]" && git push)
+        # 現在の日付を「YYYYMMDD」の数値（例: 20260710）で取得
+        CURRENT_DATE=$(date +%Y%m%d)
+        
+        # 20260721（7/21）より前の場合だけPythonを実行する
+        if [ "$CURRENT_DATE" -lt "20260721" ]; then
+          echo "【期間内】スクレイピングを実行します。"
+          python arena_full_scraper.py
+        else
+          echo "【期間終了】7/21以降のため、スクレイピングをスキップします。"
+        fi
