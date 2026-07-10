@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-07-10 19:52:28",
+    "last_updated": "2026-07-10 20:20:06",
     "players": {
         "8974-9384": {
             "official_name": "MO-2.",
@@ -61,7 +61,7 @@
             "memo": "ADX MAMY",
             "wins": 13,
             "cubes": null,
-            "status": "ONLINE",
+            "status": "RECENT",
             "last_active": "2026-07-10 19:52:28"
         },
         "3484-2467": {
@@ -133,7 +133,7 @@
             "memo": "CYGameworld",
             "wins": 57,
             "cubes": 126,
-            "status": "ONLINE",
+            "status": "RECENT",
             "last_active": "2026-07-10 19:52:28"
         }
     }
