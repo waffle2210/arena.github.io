@@ -1,0 +1,29 @@
+{
+    "last_updated": "2026-07-10 04:22:14",
+    "players": {
+        "2056-8937": {
+            "official_name": "ZUTT",
+            "custom_name": "ZUTT",
+            "memo": "アリーナのライバル（トップランカー）",
+            "wins": 312,
+            "status": "OFFLINE",
+            "last_active": "データなし"
+        },
+        "1234-5678": {
+            "official_name": "圏外",
+            "custom_name": "タクヤ",
+            "memo": "地元のうまい人",
+            "wins": 0,
+            "status": "UNKNOWN (圏外)",
+            "last_active": "データなし"
+        },
+        "9999-9999": {
+            "official_name": "圏外",
+            "custom_name": "テスト太郎",
+            "memo": "備考欄テスト用",
+            "wins": 0,
+            "status": "UNKNOWN (圏外)",
+            "last_active": "データなし"
+        }
+    }
+}
