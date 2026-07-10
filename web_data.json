@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-07-10 18:18:36",
+    "last_updated": "2026-07-10 18:42:36",
     "players": {
         "8974-9384": {
             "official_name": "MO-2.",
@@ -52,7 +52,7 @@
             "memo": "ADX MAMY",
             "wins": 46,
             "cubes": null,
-            "status": "ONLINE",
+            "status": "RECENT",
             "last_active": "2026-07-10 18:18:36"
         },
         "7504-3150": {
@@ -79,7 +79,7 @@
             "memo": "ファンタジスタ",
             "wins": 60,
             "cubes": 64,
-            "status": "RECENT",
+            "status": "OFFLINE",
             "last_active": "2026-07-10 17:32:32"
         },
         "9447-7393": {
@@ -131,10 +131,10 @@
             "official_name": "MOUKA",
             "custom_name": "MOUKA",
             "memo": "CYGameworld",
-            "wins": 54,
-            "cubes": 71,
-            "status": "OFFLINE",
-            "last_active": "データなし"
+            "wins": 55,
+            "cubes": 93,
+            "status": "ONLINE",
+            "last_active": "2026-07-10 18:42:36"
         }
     }
 }
