@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-07-10 17:28:12",
+    "last_updated": "2026-07-10 17:43:00",
     "players": {
         "8974-9384": {
             "official_name": "MO-2.",
@@ -79,7 +79,7 @@
             "memo": "ファンタジスタ",
             "wins": 60,
             "cubes": 64,
-            "status": "ONLINE",
+            "status": "OFFLINE",
             "last_active": "データなし"
         },
         "9447-7393": {
