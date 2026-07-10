@@ -33,11 +33,9 @@ jobs:
         pip install -r requirements.txt
         playwright install chromium
 
-    # ⬇️ ここを条件分岐付きに書き換えます ⬇️
      Sir,
     - name: Run Scraper
       run: |
-        # 現在の日付を「YYYYMMDD」の数値（例: 20260710）で取得
         CURRENT_DATE=$(date +%Y%m%d)
         
         # 20260721（7/21）より前の場合だけPythonを実行する
