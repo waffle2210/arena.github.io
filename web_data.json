@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-07-10 17:19:39",
+    "last_updated": "2026-07-10 17:28:12",
     "players": {
         "8974-9384": {
             "official_name": "MO-2.",
@@ -77,8 +77,8 @@
             "official_name": "A-CUP.",
             "custom_name": "IBUKI*",
             "memo": "ファンタジスタ",
-            "wins": 59,
-            "cubes": null,
+            "wins": 60,
+            "cubes": 64,
             "status": "ONLINE",
             "last_active": "データなし"
         },
