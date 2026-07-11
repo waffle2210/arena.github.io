@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-07-11 17:34:37",
+    "last_updated": "2026-07-11 17:44:38",
     "players": {
         "8974-9384": {
             "official_name": "MO-2.",
@@ -140,10 +140,10 @@
             "official_name": "MOUKA",
             "custom_name": "MOUKA",
             "memo": "CYGameworld",
-            "wins": 58,
-            "cubes": 147,
+            "wins": 59,
+            "cubes": 161,
             "status": "ONLINE",
-            "last_active": "2026-07-11 17:24:33"
+            "last_active": "2026-07-11 17:44:38"
         }
     }
 }
