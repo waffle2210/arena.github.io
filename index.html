@@ -27,10 +27,10 @@
 <body>
 
     <h1>IIDX アリーナモニター</h1>
-    <div class="meta">最終更新日時: <span id="last-updated">-</span> (10分自動更新)</div>
+    <div class="meta">最終更新日時: <span id="last-updated">-</span></div>
     
     <div class="note">
-        💡 <strong>仕様ノート:</strong> 直近10分で累計勝利数またはアリーナキューブ数に変動があったプレイヤーを検知します。連敗中かつアリーナキューブランク外のプレイヤーは検知できません。
+        💡 <strong>仕様ノート:</strong> 直近20分で累計勝利数またはアリーナキューブ数に変動があったプレイヤーを検知します。連敗中かつアリーナキューブランク外のプレイヤーは検知できません。
     </div>
     
     <div class="section-online">
@@ -65,22 +65,15 @@
 
                     let countOnline = 0, countRecent = 0, countOffline = 0;
 
-                    // 💡 【新機能】プレイヤーを「最終プレイ日時（last_active）」が新しい順にソートする
                     const sortedPlayerIds = Object.keys(data.players).sort((a, b) => {
                         const timeA = data.players[a].last_active;
                         const timeB = data.players[b].last_active;
-
-                        // 両方データなしなら順序維持
                         if (timeA === "データなし" && timeB === "データなし") return 0;
-                        // データなしは一番古く（後ろに）する
                         if (timeA === "データなし") return 1;
                         if (timeB === "データなし") return -1;
-
-                        // 日付文字列を比較して降順（新しい順）に並び替える
                         return timeB.localeCompare(timeA);
                     });
 
-                    // ソートされた順番で画面用のカードを生成
                     sortedPlayerIds.forEach(iidx_id => {
                         const player = data.players[iidx_id];
                         const card = document.createElement('div');
@@ -133,7 +126,7 @@
         }
 
         updateMonitor();
-        setInterval(updateMonitor, 600000);
+        setInterval(updateMonitor, 1200000); // 💡 20分（1,200,000ms）ごとに画面を自動再読み込み
     </script>
 </body>
 </html>
