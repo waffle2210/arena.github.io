@@ -2,8 +2,8 @@ name: IIDX Arena Scraper!
 
 on:
   schedule:
-    - cron: '*/10 0-16,22-23 * * *'
-  workflow_dispatch: # 手動実行用
+    - cron: '*/20 0-16,22-23 * * *' # 💡 10から20に変更（20分おきに自動実行）
+  workflow_dispatch:
 
 jobs:
   scrape:
