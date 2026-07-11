@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-07-11 18:04:41",
+    "last_updated": "2026-07-11 18:14:39",
     "players": {
         "8974-9384": {
             "official_name": "MO-2.",
@@ -97,7 +97,7 @@
             "memo": "ファンタジスタ",
             "wins": 35,
             "cubes": 131,
-            "status": "ONLINE",
+            "status": "RECENT",
             "last_active": "2026-07-11 17:54:36"
         },
         "4038-1151": {
@@ -142,7 +142,7 @@
             "memo": "CYGameworld",
             "wins": 60,
             "cubes": 174,
-            "status": "ONLINE",
+            "status": "RECENT",
             "last_active": "2026-07-11 17:54:36"
         }
     }
