@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-07-12 17:40:32",
+    "last_updated": "2026-07-12 18:00:34",
     "players": {
         "8974-9384": {
             "official_name": "NRO.",
@@ -7,7 +7,7 @@
             "memo": "テクノワールド",
             "wins": 58,
             "cubes": 144,
-            "status": "RECENT",
+            "status": "OFFLINE",
             "last_active": "2026-07-12 16:40:33"
         },
         "0226-0395": {
@@ -77,10 +77,10 @@
             "official_name": "A-CUP.",
             "custom_name": "IBUKI*",
             "memo": "ファンタジスタ",
-            "wins": 65,
-            "cubes": null,
-            "status": "RECENT",
-            "last_active": "2026-07-12 17:20:33"
+            "wins": 67,
+            "cubes": 141,
+            "status": "ONLINE",
+            "last_active": "2026-07-12 18:00:34"
         },
         "9447-7393": {
             "official_name": "1CREME",
@@ -142,7 +142,7 @@
             "memo": "CYGameworld",
             "wins": 61,
             "cubes": 216,
-            "status": "RECENT",
+            "status": "OFFLINE",
             "last_active": "2026-07-12 17:00:32"
         }
     }
