@@ -1,14 +1,14 @@
 {
-    "last_updated": "2026-07-12 14:40:35",
+    "last_updated": "2026-07-12 15:00:34",
     "players": {
         "8974-9384": {
             "official_name": "NRO.",
             "custom_name": "MO-2.",
             "memo": "テクノワールド",
-            "wins": 54,
+            "wins": 55,
             "cubes": null,
             "status": "ONLINE",
-            "last_active": "2026-07-12 14:40:35"
+            "last_active": "2026-07-12 15:00:34"
         },
         "0226-0395": {
             "official_name": "None",
@@ -132,9 +132,9 @@
             "custom_name": "MR2N",
             "memo": "CYGameworld",
             "wins": 72,
-            "cubes": 219,
+            "cubes": 232,
             "status": "ONLINE",
-            "last_active": "2026-07-12 14:40:35"
+            "last_active": "2026-07-12 15:00:34"
         },
         "1643-9425": {
             "official_name": "MOUKA",
