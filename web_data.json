@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-07-14 23:20:37",
+    "last_updated": "2026-07-14 23:40:36",
     "players": {
         "8974-9384": {
             "official_name": "NRO.",
@@ -20,13 +20,13 @@
             "last_active": "データなし"
         },
         "2818-4520": {
-            "official_name": "None",
+            "official_name": "ENMT",
             "custom_name": "ENMT",
             "memo": "テクノワールド",
-            "wins": 0,
+            "wins": 8,
             "cubes": null,
-            "status": "UNKNOWN (圏外)",
-            "last_active": "データなし"
+            "status": "ONLINE",
+            "last_active": "2026-07-14 23:40:36"
         },
         "8703-5572": {
             "official_name": "RENO0M",
@@ -88,7 +88,7 @@
             "memo": "ファンタジスタ",
             "wins": 120,
             "cubes": 145,
-            "status": "RECENT",
+            "status": "OFFLINE",
             "last_active": "2026-07-14 22:40:36"
         },
         "6647-9821": {
