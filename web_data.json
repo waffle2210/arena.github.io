@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-07-15 21:20:33",
+    "last_updated": "2026-07-15 21:40:37",
     "players": {
         "8974-9384": {
             "official_name": "NRO.",
@@ -69,7 +69,7 @@
             "custom_name": "TANPA2",
             "memo": "ADX MAMY",
             "wins": 46,
-            "cubes": 127,
+            "cubes": null,
             "status": "OFFLINE",
             "last_active": "2026-07-12 02:07:50"
         },
