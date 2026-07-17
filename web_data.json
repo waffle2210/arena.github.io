@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-07-17 18:00:39",
+    "last_updated": "2026-07-17 18:20:38",
     "players": {
         "8974-9384": {
             "official_name": "NRO.",
@@ -23,10 +23,10 @@
             "official_name": "ENMT",
             "custom_name": "ENMT",
             "memo": "テクノワールド",
-            "wins": 8,
+            "wins": 9,
             "cubes": null,
-            "status": "OFFLINE",
-            "last_active": "2026-07-14 23:40:36"
+            "status": "ONLINE",
+            "last_active": "2026-07-17 18:20:38"
         },
         "8703-5572": {
             "official_name": "RENO0M",
