@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-07-19 20:40:34",
+    "last_updated": "2026-07-19 21:01:50",
     "players": {
         "8974-9384": {
             "official_name": "NRO.",
@@ -123,7 +123,7 @@
             "custom_name": "SHIKIP",
             "memo": "CYGameworld",
             "wins": 28,
-            "cubes": 134,
+            "cubes": null,
             "status": "OFFLINE",
             "last_active": "2026-07-12 15:42:49"
         },
