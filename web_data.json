@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-07-20 13:22:00",
+    "last_updated": "2026-07-20 13:40:34",
     "players": {
         "8974-9384": {
             "official_name": "NRO.",
@@ -56,13 +56,13 @@
             "last_active": "2026-07-18 22:40:32"
         },
         "7504-3150": {
-            "official_name": "None",
+            "official_name": "TIHAYA",
             "custom_name": "TIHAYA",
             "memo": "ADX MAMY",
-            "wins": 0,
+            "wins": 13,
             "cubes": null,
-            "status": "UNKNOWN (圏外)",
-            "last_active": "データなし"
+            "status": "ONLINE",
+            "last_active": "2026-07-20 13:40:34"
         },
         "3484-2467": {
             "official_name": "BATORA",
