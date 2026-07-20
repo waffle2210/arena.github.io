@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-07-20 20:00:37",
+    "last_updated": "2026-07-20 20:20:36",
     "players": {
         "8974-9384": {
             "official_name": "NRO.",
@@ -87,9 +87,9 @@
             "custom_name": "CXF",
             "memo": "ファンタジスタ",
             "wins": 121,
-            "cubes": 158,
-            "status": "OFFLINE",
-            "last_active": "2026-07-17 21:20:34"
+            "cubes": 168,
+            "status": "ONLINE",
+            "last_active": "2026-07-20 20:20:36"
         },
         "6647-9821": {
             "official_name": "DENTAK",
